@@ -33,7 +33,7 @@ namespace CuentasContables
             }
             else
             {
-                LabelAlta.Text = "Debe ingresar un monto y seleccionar tipo de registro.";
+                LabelAlta.Text = "Debe ingresar un MONTO y seleccionar TIPO de registro.";
             }
             
         }

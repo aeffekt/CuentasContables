@@ -27,7 +27,7 @@
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlRegistrosAll" ForeColor="#333333" GridLines="None" DataKeyNames="id">
                 <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                 <Columns>
-                    <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
+                    <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ButtonType="Button" />
                     <asp:BoundField DataField="id" HeaderText="id" InsertVisible="False" ReadOnly="True" SortExpression="id" />
                     <asp:BoundField DataField="titular" HeaderText="titular" SortExpression="titular" />
                     <asp:BoundField DataField="monto" HeaderText="monto" SortExpression="monto" />
